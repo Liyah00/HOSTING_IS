@@ -7,8 +7,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/
 
 SECRET_KEY = 'django-insecure-3spgd3dmm60n_&8jbect6x24rpxsgqq+gp!fkdwh!qxefn6r4z'
-DEBUG = True
-ALLOWED_HOSTS = []
+DEBUG = False
+ALLOWED_HOSTS = ['*']
 
 # Application definition
 INSTALLED_APPS = [
